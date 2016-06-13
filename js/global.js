@@ -1,0 +1,1 @@
+!function(){var n={blankClose:!0},o=boring.dialog("login-dialog",n);regDialog=boring.dialog("reg-dialog",n),boring.listen(document,"click",function(n){var g=n.target||event.srcElement,i=boring.getClassList(g);i.contains("j-login")?o.open():i.contains("j-reg")&&regDialog.open()}),regDialog.open()}();
