@@ -17,6 +17,4 @@
 			regDialog.open();
 		}
 	});
-
-	regDialog.open();
 }());
