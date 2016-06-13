@@ -1,1 +1,1 @@
-!function(){new Swiper("#focus",{autoplay:5e3,autoplayDisableOnInteraction:!1})}();
+!function(){new Swiper("#focus",{autoplay:5e3,autoplayDisableOnInteraction:!1,pagination:".focus-indexes",paginationClickable:!0})}();
