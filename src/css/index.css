@@ -2,6 +2,25 @@
 
 
 
+.swiper-wrapper {
+	left: 0 !important;
+}
+.swiper-slide {
+	position: absolute;
+	left: 0;
+	top: 0;
+	float: none;
+	visibility: hidden;
+	opacity: 0;
+	transition: 0.5s;
+}
+.swiper-slide-active {
+	visibility: visible;
+	opacity: 1;
+}
+
+
+
 .focus {
 	height: 425px;
 }
