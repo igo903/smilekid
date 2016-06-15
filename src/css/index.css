@@ -99,8 +99,9 @@
 	display: inline-block;
 	width: 160px;
 	height: 160px;
-	background: var(--light-blue);
 	border-radius: 50%;
+	background: no-repeat;
+	background-size: contain;
 	margin-bottom: 1em;
 }
 .class-head {
@@ -111,6 +112,19 @@
 }
 .class-scope {
 	font-size: 1.15em;
+}
+
+.class-1 .class-icon {
+	background-image: url(../img/kid-1.png);
+	background-color: white;
+}
+.class-2 .class-icon {
+	background-image: url(../img/kid-2.png);
+	background-color: #fffddd;
+}
+.class-3 .class-icon {
+	background-image: url(../img/kid-3.png);
+	background-color: var(--light-blue);
 }
 
 
@@ -162,7 +176,7 @@
 
 .section-teacher {
 	color: white;
-	background: url(../img/facewall.jpg) no-repeat;
+	background: url(../img/facewall.jpg) no-repeat #2c324a;
 	background-size: cover;
 }
 .section-teacher .section-title,
