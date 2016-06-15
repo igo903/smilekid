@@ -5,7 +5,7 @@ var
 	replace = require('gulp-replace'),
 	cleanCss = require('gulp-clean-css'),
 	uglify = require('gulp-uglify'),
-	// babel = require('gulp-babel'),
+	babel = require('gulp-babel'),
 	myth = require('gulp-myth');
 
 const
@@ -45,9 +45,9 @@ gulp.task('img', function () {
 
 gulp.task('js', function () {
 	return gulp.src(SRC_JS_PATH)
-		// .pipe(babel({
-		// 	presets: ['es2015']
-		// }))
+		.pipe(babel({
+			presets: ['es2015']
+		}))
 		.pipe(uglify())
 		.pipe(gulp.dest(BUILD_PATH));
 });

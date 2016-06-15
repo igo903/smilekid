@@ -7,7 +7,7 @@
 		pagination: '.focus-indexes',
 		paginationClickable: true,
 
-		onFirstInit: function (s) {
+		onFirstInit(s) {
 			s.support.transitions = false;
 		}
 	});

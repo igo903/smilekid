@@ -1,1 +1,1 @@
-!function(){var n={blankClose:!0},o=boring.dialog("login-dialog",n);regDialog=boring.dialog("reg-dialog",n),document.addEventListener("click",function(n){var i=n.target.classList;i.contains("j-login")?o.open():i.contains("j-reg")&&regDialog.open()})}();
+"use strict";!function(){var n={blankClose:!0},i=boring.dialog("login-dialog",n),o=boring.dialog("reg-dialog",n);document.addEventListener("click",function(n){var a=n.target.classList;a.contains("j-login")?i.open():a.contains("j-reg")&&o.open()})}();

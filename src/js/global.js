@@ -4,10 +4,10 @@
 			blankClose: true
 		},
 
-		loginDialog = boring.dialog('login-dialog', config);
+		loginDialog = boring.dialog('login-dialog', config),
 		regDialog = boring.dialog('reg-dialog', config);
 
-	document.addEventListener('click', function (e) {
+	document.addEventListener('click', (e) => {
 		var tCl = e.target.classList;
 
 		if (tCl.contains('j-login')) {
