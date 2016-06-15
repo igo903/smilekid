@@ -44,12 +44,14 @@
 	width: 10px;
 	height: 10px;
 	border-radius: 50%;
-	background: silver;
+	background: white;
 	margin: 0 5px;
 	cursor: pointer;
+	opacity: 0.6;
 }
 .focus-indexes .swiper-active-switch {
 	background: var(--blue);
+	opacity: 1;
 }
 
 
