@@ -8,8 +8,7 @@
 		regDialog = boring.dialog('reg-dialog', config);
 
 	document.addEventListener('click', function (e) {
-		var t = e.target || event.srcElement,
-			tCl = t.classList;
+		var tCl = e.target.classList;
 
 		if (tCl.contains('j-login')) {
 			loginDialog.open();
