@@ -12,7 +12,8 @@
 	float: none;
 	visibility: hidden;
 	opacity: 0;
-	transition: 0.5s;
+	transition: visibility, opacity;
+	transition-duration: 0.5s;
 }
 .swiper-slide-active {
 	visibility: visible;
